@@ -37,4 +37,6 @@ plugins {
     alias(libs.plugins.gms)
     alias(libs.plugins.ksp)
     alias(libs.plugins.secrets)
+    id("com.android.library") version "7.4.2" apply false
+    id("org.jetbrains.kotlin.android") version "1.8.20" apply false
 }

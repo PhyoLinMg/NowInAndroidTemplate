@@ -32,3 +32,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "nowinandroid"
 include(":app")
+include(":ui-core")
+include(":core")
+include(":feature_A")
